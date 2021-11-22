@@ -1,0 +1,243 @@
+#flag {
+    width: 95px;
+    height: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 5px;
+   
+  }
+  
+  body{
+  
+    z-index: 1999;
+  
+  }
+  
+  select#selectCountry{
+    position: absolute;
+    top: 5%;
+    z-index: 2000;
+       left: 50%;
+      right: 50%;
+      transform: translate(-50%, -50%);
+      padding:0.25rem;
+    width:auto;
+    text-align-last:center;
+    font-weight:bold;
+    border-color: #f47a8f;
+    border-radius: 0.25rem;
+    margin: auto;
+  }
+  
+  
+  
+  #space {
+    padding: 2px;
+  }
+  
+  
+  
+  
+  .navbar-brand{
+    display: none;
+  }
+   
+  table {
+  
+    border: solid salmon;
+  }
+  
+  
+  
+  
+  .navOpacity{
+  background-color: bisque;
+  
+  }
+  
+  .navbar{
+  
+  /* box-shadow: 0px 1px 10px #999;
+  background-color: rgba(252, 209, 212, 0.6); */
+  background-color: transparent;
+  z-index: 2000;
+  padding: 0 0.5rem;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  
+  
+  
+  
+  #mapid{
+  
+  height: 100vh;
+  z-index: 1;
+  
+  }
+  
+  .loader_container{
+  height: 80vh;
+  width: 100%;
+  position:absolute;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 1000;
+  }
+  
+  .loader{
+  
+    height: 100px;
+    width: 100px;
+    border: 15px solid orange;
+    border-top-color:orangered;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    animation: spin 1.5s infinite linear;
+  }
+  
+    @keyframes spin{ 
+      100%{
+         transform: rotate(360deg);
+      }
+    
+  
+  
+  }
+  
+    .leaflet-popup-content-wrapper{
+      border-radius: 2px;
+   margin: 0;
+  
+    }
+  
+    .leaflet-popup-content {
+      margin: 1px 1px;
+      line-height: 1.4;
+      
+  }
+  
+    .forecast div.leaflet-popup-content {
+      align-content: center;
+      width: auto;
+      
+    }
+    
+    .leaflet-popup-content-wrapper .leaflet-popup-content {
+      
+      font-size: 1rem;
+      width: auto;
+      border-radius: 0px;
+     
+    }
+    
+    div.modal-dialog.modal-dialog-centered {
+      justify-content: center;
+    }
+  
+   .navbar-brand{
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color:white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+  }
+  
+  .navbar-brand:hover
+  
+  {
+    color:grey;
+  }
+  .nav-link
+  
+  {
+    color:grey;
+  }
+  
+  .nav-link:hover
+  
+  {
+    color:white;
+  }
+  
+  .modal-content{
+  
+    font-size: 1.2rem !important;
+  }
+  
+  .modal-body {
+    max-height: 60vh;
+    overflow-y: auto;
+    }
+  
+  
+    .modal{
+      z-index: 2200 !important;
+    }
+  
+    .awesome-marker {
+      font-size: 4px;
+     
+  }
+  
+  
+  
+  .fitIn{
+  cursor: pointer;
+  
+  }
+  
+  i .fa-solid .fa-calendar{
+  
+    font-weight: solid;
+  
+  }
+  
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-text{
+    font-size: 0.8rem;
+  }
+  
+  
+  .card-img-top {
+    max-height: 30vh;
+    object-fit: cover;
+  }
+  
+  .modal-body table td.firstNewsDescription,.modal-body table td.secondNewsDescription,.modal-body table td.thirdNewsDescription,.modal-body table td.fourthNewsDescription{padding-bottom:1rem}
+  .modal-body .card{
+    margin:2rem
+  }
+  
+  .modal-body .card .btn{
+    color:#60b0f4;
+    background-color:transparent;
+    border:1px solid #60b0f4
+  }
+  .modal-body .card .btn:hover{color:white;
+    background-color:#60b0f4;
+    border:1px solid #60b0f4
+  }
+  .modal-body .card a{
+    text-decoration:none
+  }
+  .modal-body a{
+    text-decoration:underline
+  }
+  
