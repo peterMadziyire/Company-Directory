@@ -1346,22 +1346,6 @@ $( document ).ready(function() {
                 })
 
 
-              //   $('#departmentCol').on('click', ()=>{
-              //     console.log("clicked")
-              //  depSort=!depSort;
-              //  filterAllEmployees()
-              //  console.log(depSort)
-              //   })
-               
-
-               
-// Modal buttons events
-
-//     $(".close").on('click', ()=>{
-
-//     console.log("closed")
-//     self.location.reload();
-// })
 
 
 $(".cancel").on('click', ()=>{
@@ -1583,75 +1567,23 @@ $("#columnTitleWrapper").toggle()
 $("#sortByWrapper").toggle()
 $("#searchTextWrapper").toggleClass("width", "20vh")
 $("#records").toggle()
-// $(".expand").css("text-align", "center")
-// $("#searchTextWrapper").css("margin", "auto")
-// $('#initial-cont').toggle();
-// $('#delete-cont').toggle();
 
-// if ($('#delete-cont').css({"display":"none"})){
-//     return $('#delete-cont').css({"display":"flex"})
-// }else if(
-//     $('#delete-cont').css({"display":"flex"})
-// ){
-//     return $('#delete-cont').css({"display":"none"})
-// }
 
 
 
     })
 
 
-    // $(".entry55").on('click', ()=>{
-
-
-    // })
-
-    // $.ajax({
-    //     url: "libs/php/getAllData.php",
-    //     type: "POST",
-    //     dataType: "json",
-    //     success: function (results) {  
-    //         console.log(results)
-
-
-    //     },
-    //     error: function (request, status, error) {
-    //         console.log(error);
-    //       },
-
-
-
-
-
-    // })
+    
 
    
 
 
 
 
-    // $.ajax({
-    //     url: "libs/php/getAllDepartments.php",
-    //     type: "POST",
-    //     dataType: "json",
-    //     success: function (results) {  
-    //         console.log(results)
+    
 
-    //         results.data.forEach((element)=>{
-    //             $("#departmentUpdate").append("<option value='"+element.id+"'>"+element.name+"</option>")
-
-    //         })
-
-    //     },
-    //     error: function (request, status, error) {
-    //         console.log(error);
-    //       },
-
-
-
-
-
-    // })
+   
 
 
     $("#employeeModal").on("show.bs.modal", function (e) {
@@ -1751,29 +1683,7 @@ $("#selectDepartment").change(function () {
 
  
 
-    // $.ajax({
-    //     url: "libs/php/getAllLocations.php",
-    //     type: "POST",
-    //     dataType: "json",
-    //     success: function (results) {  
-    //         console.log(results)
-
-    //         results.data.forEach((element)=>{
-    //             $("#locationUpdate").append("<option value='"+element.id+"'>"+element.name+"</option>")
-
-    //         })
-
-    //     },
-    //     error: function (request, status, error) {
-    //         console.log(error);
-    //       },
-
-
-   
-
-
-    // })
-   
+     
     //GET ALL EMPLOYEE DATA
 
     filterAllEmployees();
@@ -1781,44 +1691,11 @@ $("#selectDepartment").change(function () {
     getAllModal2Departments()
 
     getAllModal2Locations()
-    // displyEmployees()
-        
-        // $.ajax({
-        // url: "libs/php/getAllData.php",
-        // type: "POST",
-        // dataType: "json",
-        // success: function (results) {
-        //     console.log(results)
 
-        
-        //     displayStaff(results.data);
-
-     
-
-        // $("#searchBar").keyup((e)=>{
-        //     var searchString= e.target.value.toLowerCase();
-        //    var filteredStaff= results.data.filter((result)=>{
-        //        return result.firstName.toLowerCase().includes(searchString)||result.lastName.toLowerCase().includes(searchString)
-
-        //     });
-        //     console.log(filteredStaff)
-
-        //     displayStaff(filteredStaff);
-
-        //     })
-        // },
 
         
 
-        // error: function (request, status, error) {
-        //     console.log(error);
-        //   },
-        // });
-
-
-
-
-        // Dynamically populate department select filter - desktop
+ 
 $.ajax({
     url: "libs/php/getAllDepartments.php",
     type: "POST",
@@ -1879,14 +1756,6 @@ $.ajax({
     $('#addADepartment').show();
     $('#addAlocation').hide();
             
-            // $('#mainBody').addClass(".results2")
-        //   $("#filterByTitle").hide();
-        //   $("#filterByDepartment").hide();
-        //   $("#filterByLocation").hide();
-        //   $(".lineBreak").hide();
-        //   $("#addEmployeeBtn").hide();
-        //   $("#addDepartmentBtn").show();
-        //   $("#addLocationBtn").hide();
         
         filterByDepartment()
         

@@ -16,6 +16,7 @@
 
 	$conn = new mysqli($cd_host, $cd_user, $cd_password, $cd_dbname, $cd_port, $cd_socket);
 
+
 	if (mysqli_connect_errno()) {
 		
 		$output['status']['code'] = "300";

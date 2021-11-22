@@ -256,6 +256,25 @@ display: none !important;
 
  }
 
+ .alphabet{
+   display: none;
+ }
+
+ .results{
+  height: 56vh;
+  overflow-y: scroll;
+ 
+}
+
+/* .results::-webkit-scrollbar{
+  display:initial;
+} */
+
+/* .results{
+  -ms-overflow-style:unset;
+  scrollbar-width:initial;
+} */
+
  td.alignLeft{
   vertical-align:middle;
   font-size: 0.7rem ;
